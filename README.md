@@ -13,7 +13,8 @@ flight cards, stay dates and detailed notes in sync when changing the plan.
 
 Lead with the destination, dates, lodging nights and a compact chronological
 overview. Readers should see the shape of the whole trip before scrolling or
-clicking. Photographs support the details farther down the page. Only secondary
+clicking. Small highlight photographs support the stay sequence above the fold;
+larger views appear in the details. Only secondary
 logistics use disclosures; the daily plan always remains visible.
 
 The layout follows the personal-os `vacation-trip-site` skill. Relevant design
