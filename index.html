@@ -3,386 +3,147 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="A family spring break in southern Nevada: Red Rock climbing, a Mandalay Bay interlude, and Black Canyon kayaking."
-    />
-    <meta name="theme-color" content="#f3eee4" />
-    <title>Desert Week — Spring Break 2027</title>
+    <meta name="description" content="Las Vegas spring break, April 16–25, 2027. The family itinerary at a glance: Red Rock climbing, Mandalay Bay, Hoover Dam and Black Canyon kayaking." />
+    <meta name="theme-color" content="#f6f3ed" />
+    <title>Las Vegas · Spring Break 2027</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <a class="skip-link" href="#itinerary">Skip to itinerary</a>
-
-    <header class="hero">
-      <div class="photo-grid" aria-label="Trip highlights">
-        <figure class="photo photo--wide">
-          <img
-            src="assets/red-rock-candidate-2.jpg"
-            alt="A climber moving across the striped sandstone of Red Rock Canyon"
-          />
-          <figcaption>Red Rock Canyon</figcaption>
-        </figure>
-        <figure class="photo">
-          <img
-            src="assets/mandalay-bay.jpg"
-            alt="The golden Mandalay Bay tower illuminated at dusk"
-          />
-          <figcaption>The Strip</figcaption>
-        </figure>
-        <figure class="photo">
-          <img
-            src="assets/black-canyon-kayaks.jpg"
-            alt="Colorful kayaks at the Colorado River below Hoover Dam"
-          />
-          <figcaption>Black Canyon</figcaption>
-        </figure>
-      </div>
-
-      <div class="hero-copy wrap">
-        <p class="eyebrow">Spring break 2027 · Working plan</p>
-        <h1>Desert week</h1>
-        <p class="dates">April 17–25 · Las Vegas, Nevada</p>
-        <p class="dek">
-          Eight nights in three acts: family climbing at Red Rock, two easy
-          resort nights on the Strip, then Hoover Dam and a one-way paddle
-          through Black Canyon.
-        </p>
-      </div>
-    </header>
-
-    <main id="itinerary">
-      <section class="stays wrap" aria-labelledby="stays-title">
-        <div class="section-heading">
-          <p class="eyebrow">The shape of the trip</p>
-          <h2 id="stays-title">Three stays, each with a job</h2>
+    <a class="skip-link" href="#overview">Skip to itinerary</a>
+    <main class="page">
+      <header class="masthead">
+        <div>
+          <p class="eyebrow">Spring break 2027</p>
+          <h1>Las Vegas<span class="title-dot">.</span></h1>
         </div>
+        <div class="trip-meta">
+          <p class="trip-dates">Fri Apr 16 – Sun Apr 25</p>
+          <p>8 nights in Vegas · fly home Saturday night</p>
+          <p><span class="status booked">Flights booked</span> <span class="plan-status">Stays &amp; activities proposed</span></p>
+        </div>
+      </header>
 
-        <ol class="stay-strip">
-          <li class="stay stay--rock">
-            <span class="stay-count">3 nights</span>
-            <strong>Near Red Rock</strong>
-            <span>Sat 17 → Tue 20</span>
-            <small>Climb early. Recover slowly.</small>
-          </li>
-          <li class="stay stay--strip">
-            <span class="stay-count">2 nights</span>
-            <strong>Mandalay Bay</strong>
-            <span>Tue 20 → Thu 22</span>
-            <small>Pool, Strip and a show.</small>
-          </li>
-          <li class="stay stay--river">
-            <span class="stay-count">3 nights</span>
-            <strong>Henderson</strong>
-            <span>Thu 22 → Sun 25</span>
-            <small>Dam, desert and river.</small>
-          </li>
-        </ol>
+      <section class="stays" aria-label="Proposed lodging: four nights, two nights, two nights">
+        <a class="stay rock" href="#red-rock">
+          <span class="stay-count">4 <small>nights</small></span>
+          <span class="stay-copy"><strong>Red Rock climbing</strong><span class="stay-dates">Apr 16–20 · rental nearby</span></span>
+          <span class="stay-photo"><img src="assets/red-rock-candidate-2.jpg" width="104" height="72" alt="Climbing Red Rock sandstone" /></span>
+        </a>
+        <a class="stay strip" href="#mandalay">
+          <span class="stay-count">2 <small>nights</small></span>
+          <span class="stay-copy"><strong>Mandalay Bay pools</strong><span class="stay-dates">Apr 20–22 · resort</span></span>
+          <span class="stay-photo"><img src="assets/mandalay-pools.jpg" width="104" height="72" alt="Mandalay Bay's wave pool" /></span>
+        </a>
+        <a class="stay river" href="#henderson">
+          <span class="stay-count">2 <small>nights</small></span>
+          <span class="stay-copy"><strong>Kayaking &amp; the dam</strong><span class="stay-dates">Apr 22–24 · Henderson</span></span>
+          <span class="stay-photo"><img src="assets/black-canyon-kayaks.jpg" width="104" height="72" alt="Colorful kayaks on the Colorado River" /></span>
+        </a>
       </section>
 
-      <section class="schedule wrap" aria-labelledby="schedule-title">
+      <section id="overview" class="overview" aria-labelledby="overview-title">
         <div class="section-heading">
-          <p class="eyebrow">Day by day</p>
-          <h2 id="schedule-title">The proposed itinerary</h2>
+          <h2 id="overview-title">The whole trip</h2>
+          <a href="#details">Details &amp; links <span aria-hidden="true">↓</span></a>
         </div>
+        <table class="itinerary">
+          <caption class="sr-only">Proposed daily activities and overnight locations, with confirmed Delta flights.</caption>
+          <thead><tr><th scope="col">April</th><th scope="col">Main plan</th><th scope="col" class="afternoon">Afternoon / evening</th><th scope="col">Sleep</th></tr></thead>
+          <tbody>
+            <tr class="travel"><th scope="row"><span>Fri</span> 16</th><td><a href="#flights">Fly Boston → Las Vegas</a></td><td class="afternoon">DL408 · 5:55 pm → 9:05 pm · nonstop</td><td><span class="base rock">Red Rock</span></td></tr>
+            <tr><th scope="row"><span>Sat</span> 17</th><td><a href="#red-rock">Easy Red Rock hike</a></td><td class="afternoon">Groceries, gear &amp; settle in</td><td><span class="base rock">Red Rock</span></td></tr>
+            <tr><th scope="row"><span>Sun</span> 18</th><td><a href="#red-rock">Early Calico climbing</a></td><td class="afternoon">Magic Bus · relaxed afternoon</td><td><span class="base rock">Red Rock</span></td></tr>
+            <tr><th scope="row"><span>Mon</span> 19</th><td><a href="#red-rock">Climb Red Rock</a></td><td class="afternoon">Calico or a canyon day · afternoon flexible</td><td><span class="base rock">Red Rock</span></td></tr>
+            <tr class="move"><th scope="row"><span>Tue</span> 20</th><td><a href="#mandalay">Climb or ride → Mandalay</a></td><td class="afternoon">Check in · pool &amp; Strip</td><td><span class="base strip">Mandalay</span></td></tr>
+            <tr><th scope="row"><span>Wed</span> 21</th><td><a href="#mandalay">Resort pool + Vegas show</a></td><td class="afternoon">Lazy river · KÀ or Blue Man Group</td><td><span class="base strip">Mandalay</span></td></tr>
+            <tr class="move"><th scope="row"><span>Thu</span> 22</th><td><a href="#henderson">Dig This → Henderson</a></td><td class="afternoon">Last resort swim · machines · move</td><td><span class="base river">Henderson</span></td></tr>
+            <tr><th scope="row"><span>Fri</span> 23</th><td><a href="#henderson">Hoover Dam + Boulder City</a></td><td class="afternoon">Bighorn sheep · railroad tunnels</td><td><span class="base river">Henderson</span></td></tr>
+            <tr class="travel"><th scope="row"><span>Sat</span> 24</th><td><a href="#river-day">Kayak → 10:55 pm flight</a></td><td class="afternoon">Black Canyon · dinner · DL822 via RDU</td><td><span class="base flight">On plane</span></td></tr>
+            <tr class="travel"><th scope="row"><span>Sun</span> 25</th><td><a href="#flights">Boston · 8:55 am</a></td><td class="afternoon">DL1054 from Raleigh–Durham · home &amp; rest</td><td><span class="base home">Home</span></td></tr>
+          </tbody>
+        </table>
+        <p class="overview-note">Tuesday and Thursday stay changes retained. Saturday Apr 24 is checkout day; no Saturday-night lodging.</p>
+      </section>
 
-        <div class="phase">
-          <header class="phase-header phase-header--rock">
-            <div>
-              <p class="phase-number">Stay 01</p>
-              <h3>Red Rock base</h3>
-            </div>
-            <p>Saturday night through Monday night · 3 nights</p>
-          </header>
-
-          <article class="day">
-            <div class="day-date">
-              <span>Sat</span>
-              <strong>17</strong>
-              <small>April</small>
-            </div>
-            <div class="day-copy">
-              <h4>Arrive and settle in</h4>
-              <p>
-                Fly to Las Vegas, collect the rental car and check into a
-                two- or three-bedroom rental within about 25 minutes of the
-                Scenic Drive gate. Groceries, gear and an early night.
-              </p>
-              <p class="practical">
-                <strong>Sleep:</strong> Rental near Red Rock · night 1 of 3
-              </p>
-            </div>
+      <section id="flights" class="flight-section" aria-labelledby="flights-title">
+        <div class="section-heading"><h2 id="flights-title">Flights <span class="status booked">Booked</span></h2><span class="muted">All times local</span></div>
+        <div class="flight-grid">
+          <article class="flight-card">
+            <p class="eyebrow">Outbound · Friday Apr 16</p>
+            <h3>BOS <span aria-hidden="true">→</span> LAS <span class="flight-type">Nonstop</span></h3>
+            <p class="flight-time">5:55 pm → 9:05 pm</p>
+            <p><strong>Delta DL408 · Airbus A321neo.</strong> Nonstop, 6h 10m. Boston Terminal A → Las Vegas Terminal 1.</p>
           </article>
-
-          <article class="day day--feature">
-            <div class="day-date">
-              <span>Sun</span>
-              <strong>18</strong>
-              <small>April</small>
-            </div>
-            <div class="day-copy">
-              <p class="kicker">First big morning</p>
-              <h4>Calico climbing at sunrise</h4>
-              <p>
-                East Coast time works in our favor. Reach the gate around
-                5:30, enter at 6:00 and walk to Magic Bus or another familiar
-                Calico crag. A handful of family routes is enough. Leave before
-                the day gets crowded; pool and nap afterward.
-              </p>
-              <p class="practical">
-                <strong>Plan:</strong> First wave at the gate · no timed-entry
-                reservation needed before 8:00
-              </p>
-              <a
-                class="text-link"
-                href="https://www.blm.gov/programs/national-conservation-lands/nevada/red-rock-canyon"
-                >Red Rock visitor information <span aria-hidden="true">↗</span></a
-              >
-            </div>
-          </article>
-
-          <article class="day">
-            <div class="day-date">
-              <span>Mon</span>
-              <strong>19</strong>
-              <small>April</small>
-            </div>
-            <div class="day-copy">
-              <h4>Second Red Rock morning</h4>
-              <p>
-                Another early Calico session. If Sunday is unusually smooth,
-                this could become the canyon day; otherwise keep the objective
-                simple and let the kids build momentum. The afternoon stays
-                open for swimming and recovery.
-              </p>
-              <p class="practical">
-                <strong>Sleep:</strong> Rental near Red Rock · night 3 of 3
-              </p>
-            </div>
-          </article>
-
-          <article class="day">
-            <div class="day-date">
-              <span>Tue</span>
-              <strong>20</strong>
-              <small>April</small>
-            </div>
-            <div class="day-copy">
-              <h4>One more adventure, then the Strip</h4>
-              <p>
-                Pack the car and choose between a short third climbing morning
-                or the two-hour Canyon Rim horseback ride. Continue to
-                Mandalay Bay for check-in, lazy river time and dinner.
-              </p>
-              <div class="actions">
-                <a
-                  class="button button--ghost"
-                  href="https://www.cowboytrailrides.com/RideDetails?rid=01tfn000000LkvtAAC"
-                  >Canyon Rim ride <span aria-hidden="true">↗</span></a
-                >
-                <a
-                  class="button button--ghost"
-                  href="https://mandalaybay.mgmresorts.com/"
-                  >Mandalay Bay <span aria-hidden="true">↗</span></a
-                >
-              </div>
-              <p class="practical">
-                <strong>Sleep:</strong> Mandalay Bay · night 1 of 2
-              </p>
-            </div>
-          </article>
-        </div>
-
-        <div class="phase">
-          <header class="phase-header phase-header--strip">
-            <div>
-              <p class="phase-number">Stay 02</p>
-              <h3>Mandalay Bay</h3>
-            </div>
-            <p>Tuesday night through Wednesday night · 2 nights</p>
-          </header>
-
-          <article class="day day--feature">
-            <div class="day-date">
-              <span>Wed</span>
-              <strong>21</strong>
-              <small>April</small>
-            </div>
-            <div class="day-copy">
-              <p class="kicker">Rest day, properly done</p>
-              <h4>Beach, lazy river and a Vegas show</h4>
-              <p>
-                No alarm and no driving objective. Spend the day at Mandalay
-                Bay Beach, use Shark Reef if the weather turns, then see KÀ or
-                Blue Man Group in the evening.
-              </p>
-              <div class="actions">
-                <a
-                  class="button button--gold"
-                  href="https://mandalaybay.mgmresorts.com/en/amenities/beach.html"
-                  >Mandalay Bay Beach <span aria-hidden="true">↗</span></a
-                >
-                <a
-                  class="button button--ghost"
-                  href="https://mgmgrand.mgmresorts.com/en/entertainment/ka-cirque-du-soleil-show.html"
-                  >KÀ <span aria-hidden="true">↗</span></a
-                >
-                <a
-                  class="button button--ghost"
-                  href="https://www.blueman.com/las-vegas/buy-tickets"
-                  >Blue Man Group <span aria-hidden="true">↗</span></a
-                >
-              </div>
-              <p class="practical">
-                <strong>Sleep:</strong> Mandalay Bay · night 2 of 2
-              </p>
-            </div>
-          </article>
-
-          <article class="day">
-            <div class="day-date">
-              <span>Thu</span>
-              <strong>22</strong>
-              <small>April</small>
-            </div>
-            <div class="day-copy">
-              <h4>Pool morning, heavy machinery afternoon</h4>
-              <p>
-                Have a slow breakfast and one last swim, then check out and
-                head south to Dig This. The kids can operate a six-ton
-                excavator or skid steer before the drive to Henderson.
-              </p>
-              <a class="button button--rust" href="https://digthisvegas.com/"
-                >Explore Dig This <span aria-hidden="true">↗</span></a
-              >
-              <p class="practical">
-                <strong>Sleep:</strong> Henderson rental · night 1 of 3
-              </p>
-            </div>
-          </article>
-        </div>
-
-        <div class="phase">
-          <header class="phase-header phase-header--river">
-            <div>
-              <p class="phase-number">Stay 03</p>
-              <h3>Henderson base</h3>
-            </div>
-            <p>Thursday night through Saturday night · 3 nights</p>
-          </header>
-
-          <article class="day">
-            <div class="day-date">
-              <span>Fri</span>
-              <strong>23</strong>
-              <small>April</small>
-            </div>
-            <div class="day-copy">
-              <h4>Bighorn sheep, Hoover Dam and the old railroad</h4>
-              <p>
-                Start at Hemenway Park, tour Hoover Dam, eat lunch in Boulder
-                City and walk through several Historic Railroad Trail tunnels.
-                There is no need to force the full 7.4-mile round trip.
-              </p>
-              <div class="actions">
-                <a
-                  class="button button--ghost"
-                  href="https://www.usbr.gov/lc/hooverdam/service/index.html"
-                  >Hoover Dam tours <span aria-hidden="true">↗</span></a
-                >
-                <a
-                  class="button button--ghost"
-                  href="https://www.nps.gov/lake/learn/historic-railroad-tunnel.htm"
-                  >Railroad tunnels <span aria-hidden="true">↗</span></a
-                >
-              </div>
-              <p class="practical">
-                <strong>Note:</strong> The full Guided Dam Tour is currently
-                first-come, first-served on site.
-              </p>
-            </div>
-          </article>
-
-          <article class="day day--feature day--river">
-            <div class="day-date">
-              <span>Sat</span>
-              <strong>24</strong>
-              <small>April</small>
-            </div>
-            <div class="day-copy">
-              <p class="kicker">The river day</p>
-              <h4>Black Canyon with Blazin’ Paddles</h4>
-              <p>
-                Take the first Half-Day Deluxe departure: UTV transfer, a
-                short slot-canyon hike and a guided one-way paddle through
-                Black Canyon, with Emerald Cave, a beach stop and lunch along
-                the way. Return to the rental for the pool and an easy final
-                dinner.
-              </p>
-              <a
-                class="button button--river"
-                href="https://www.blazinpaddles.com/tour/half-day-deluxe-tour/"
-                >Blazin’ Paddles Half-Day Deluxe
-                <span aria-hidden="true">↗</span></a
-              >
-              <p class="practical">
-                <strong>Book:</strong> First available departure · ages 8+
-              </p>
-            </div>
-          </article>
-
-          <article class="day day--last">
-            <div class="day-date">
-              <span>Sun</span>
-              <strong>25</strong>
-              <small>April</small>
-            </div>
-            <div class="day-copy">
-              <h4>Breakfast, pack and fly home</h4>
-              <p>
-                Keep departure day simple. Check out, return the rental car
-                and head home before school resumes Monday.
-              </p>
-            </div>
+          <article class="flight-card">
+            <p class="eyebrow">Return · Saturday Apr 24 → Sunday Apr 25</p>
+            <h3>LAS <span aria-hidden="true">→</span> RDU <span aria-hidden="true">→</span> BOS</h3>
+            <p class="flight-time">10:55 pm Sat → 8:55 am Sun</p>
+            <p><strong>Delta DL822 → DL1054.</strong> Airbus A321neo, then A319. 7h total with a <strong>38-minute connection in Raleigh–Durham</strong>. Las Vegas Terminal 1 → Boston Terminal A.</p>
           </article>
         </div>
       </section>
 
-      <aside class="lodging-note wrap" aria-labelledby="lodging-title">
-        <p class="eyebrow">What the rentals need</p>
-        <h2 id="lodging-title">Space, legal listings and a warm pool</h2>
-        <div class="lodging-grid">
-          <div>
-            <h3>Near Red Rock</h3>
-            <p>
-              Two or three bedrooms, within roughly 25 minutes of the Scenic
-              Drive gate. It does not need to be in Summerlin proper. Verify
-              short-term-rental registration and pool-heating terms.
-            </p>
+      <section id="details" class="details-section" aria-labelledby="details-title">
+        <div class="section-heading"><h2 id="details-title">The plan, a little closer</h2><a href="#overview">Back to overview ↑</a></div>
+        <p class="section-intro">Early climbing, flexible afternoons, then two days of resort time and a river finale. Activities below are proposals, not reservations.</p>
+
+        <article id="red-rock" class="place rock">
+          <header class="place-header">
+            <div><p class="eyebrow">Fri Apr 16 → Tue Apr 20 · 4 nights</p><h3>Near Red Rock</h3><p>Family climbing, hikes and room to spread out.</p></div>
+            <img src="assets/red-rock-candidate-2.jpg" width="280" height="180" loading="lazy" alt="Climbers on the striped sandstone of Red Rock Canyon" />
+          </header>
+          <div class="place-body">
+            <dl class="day-notes">
+              <div><dt>Fri 16</dt><dd><strong>Land at 9:05 pm.</strong> Collect the rental car and check in. Arrange late arrival access; leave groceries for Saturday.</dd></div>
+              <div><dt>Sat 17</dt><dd><strong>Easy first day.</strong> A short Red Rock hike, food shopping and gear sorting. Keep it flexible after the late flight; save the main climbing sessions for Sunday and Monday.</dd></div>
+              <div><dt>Sun 18</dt><dd><strong>Early Calico session.</strong> Use East Coast body clocks to get an early start. Magic Bus and a few routes would be a successful morning. A quiet afternoon afterward.</dd></div>
+              <div><dt>Mon 19</dt><dd><strong>Another climbing morning.</strong> Calico again, or a canyon/trad objective if everyone is keen. Leave the afternoon open for an easy hike, downtime or a Vegas show.</dd></div>
+              <div><dt>Tue 20</dt><dd><strong>One more outing before moving.</strong> A short climb or Cowboy Trail Rides, then drive to Mandalay Bay.</dd></div>
+            </dl>
+            <aside class="practical"><strong>Base:</strong> A two- or three-bedroom rental within roughly 25 minutes of the Scenic Drive gate. Prioritize location and space; a heated pool or hot tub is a bonus. The <a href="https://www.airbnb.com/rooms/1787850977165377392">Summerlin condo under consideration</a> advertises a clubhouse pool and hot tub; pool heating and April guest access remain unconfirmed.</aside>
+            <details class="extra"><summary>Climbing timing &amp; rental notes</summary><p>Plan around the Scenic Drive's currently published 6 am opening. Recheck the April 2027 opening and timed-entry rules before the trip. Early arrival improves the odds but does not guarantee a parking spot or quiet routes; no need to turn a family morning into a queue-time contest.</p><p>Confirm any rental's pool temperature, access hours and heating charge before counting on swimming. For the condo, ask about clubhouse access for short stays as well.</p></details>
+            <div class="links"><a href="https://www.blm.gov/programs/national-conservation-lands/nevada/red-rock-canyon">Red Rock visitor info ↗</a><a href="https://www.cowboytrailrides.com/RideDetails?rid=01tfn000000LkvtAAC">Cowboy Trail Rides ↗</a></div>
           </div>
-          <div>
-            <h3>Henderson</h3>
-            <p>
-              Two or three bedrooms in southeastern Henderson—Mission Hills,
-              River Mountain or Black Mountain—with a genuinely heated pool or
-              hot tub and current city registration.
-            </p>
+        </article>
+
+        <article id="mandalay" class="place strip">
+          <header class="place-header">
+            <div><p class="eyebrow">Tue Apr 20 → Thu Apr 22 · 2 nights</p><h3>Mandalay Bay</h3><p>The resort part of the week.</p></div>
+            <img src="assets/mandalay-pools.jpg" width="280" height="180" loading="lazy" alt="The wave pool and beach at Mandalay Bay" />
+          </header>
+          <div class="place-body">
+            <dl class="day-notes">
+              <div><dt>Tue 20</dt><dd><strong>Check in and unwind.</strong> Pool time if arrival and opening hours allow, then dinner and a little Strip exploring.</dd></div>
+              <div><dt>Wed 21</dt><dd><strong>Pool, lazy river and a show.</strong> No driving objective. KÀ or Blue Man Group in the evening; Shark Reef is an indoor option. Choose the show once April performances are confirmed.</dd></div>
+              <div><dt>Thu 22</dt><dd><strong>Last swim, then Dig This.</strong> A relaxed resort morning before checkout and the move to Henderson.</dd></div>
+            </dl>
+            <aside class="practical"><strong>Base:</strong> Two nights for the full pool experience. Check the room setup for four and the 2027 pool calendar before booking.</aside>
+            <div class="links"><a href="https://mandalaybay.mgmresorts.com/">Mandalay Bay ↗</a><a href="https://mandalaybay.mgmresorts.com/en/amenities/beach.html">Pools &amp; beach ↗</a><a href="https://mgmgrand.mgmresorts.com/en/entertainment/ka-cirque-du-soleil-show.html">KÀ ↗</a><a href="https://www.blueman.com/las-vegas/buy-tickets">Blue Man Group ↗</a></div>
           </div>
-        </div>
-      </aside>
+        </article>
+
+        <article id="henderson" class="place river">
+          <header class="place-header">
+            <div><p class="eyebrow">Thu Apr 22 → Sat Apr 24 · 2 nights</p><h3>Henderson &amp; Black Canyon</h3><p>Machines, the dam and a day on the river.</p></div>
+            <img src="assets/black-canyon-kayaks.jpg" width="280" height="180" loading="lazy" alt="Kayaks on the Colorado River below Hoover Dam" />
+          </header>
+          <div class="place-body">
+            <dl class="day-notes">
+              <div><dt>Thu 22</dt><dd><strong>Dig This, then settle in.</strong> Choose an age-appropriate excavator or skid-steer experience for the kids, then check into the rental.</dd></div>
+              <div><dt>Fri 23</dt><dd><strong>Hoover Dam and Boulder City.</strong> Look for bighorn sheep at Hemenway Park, tour the dam and have lunch in town. Walk a few of the Historic Railroad Trail tunnels if everyone wants more.</dd></div>
+              <div id="river-day"><dt>Sat 24</dt><dd><strong>Blazin’ Paddles, then the 10:55 pm flight.</strong> Check out with the car packed, take an early Black Canyon tour, then leave time for changing, dinner, fuel and the rental-car return. Aim to be at the terminal around 8:55 pm.</dd></div>
+              <div><dt>Sun 25</dt><dd><strong>Arrive Boston at 8:55 am.</strong> Change planes in Raleigh–Durham; the connection is 38 minutes. Keep the rest of Sunday free to recover.</dd></div>
+            </dl>
+            <aside class="practical"><strong>Departure-day fit:</strong> Blazin’ Paddles' early Half-Day Deluxe is the current favorite, with a 10:55 pm flight afterward. Confirm the tour's return time before reserving. There is no rental to return to after Saturday checkout; arrange a changing/shower stop or swap the river to Friday and do the dam Saturday.</aside>
+            <details class="extra"><summary>River tour &amp; lodging notes</summary><p>The Half-Day Deluxe combines a UTV transfer, a short slot-canyon hike and a guided paddle, with Emerald Cave and a lunch stop. Recheck the 2027 route, minimum age, meeting point and return time directly with the outfitter.</p><p>Look for a two- or three-bedroom rental in southeastern Henderson or around Boulder City. A hot tub or confirmed heated pool would be useful; compare the full cost with heating included.</p></details>
+            <div class="links"><a href="https://digthisvegas.com/">Dig This ↗</a><a href="https://www.usbr.gov/lc/hooverdam/service/index.html">Hoover Dam tours ↗</a><a href="https://www.nps.gov/lake/learn/historic-railroad-tunnel.htm">Railroad Tunnel Trail ↗</a><a href="https://www.blazinpaddles.com/tour/half-day-deluxe-tour/">Blazin’ Paddles · Half-Day Deluxe ↗</a></div>
+          </div>
+        </article>
+      </section>
+      <footer>
+        <p>Working itinerary · updated October 4, 2026 <a href="#overview">Back to top ↑</a></p>
+        <details><summary>Photo credits</summary><p>Red Rock: BLM Nevada, public domain. <a href="https://commons.wikimedia.org/wiki/File:Biggest_Pool_in_Las_Vegas_Mandalay_Bay_(22199037666).jpg">Mandalay Bay pool</a>: dronepicr, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>. Hoover Dam kayaks: Andrew Cattoir / Lake Mead National Recreation Area, public domain. All via Wikimedia Commons; images resized or cropped for display.</p></details>
+      </footer>
     </main>
-
-    <footer class="footer wrap">
-      <p>Planning draft · updated October 4, 2026</p>
-      <details>
-        <summary>Photo credits</summary>
-        <p>
-          Red Rock climbing: BLM Nevada, public domain, via Wikimedia Commons.
-          Mandalay Bay: Hermann Luyken, CC0, via Wikimedia Commons. Hoover Dam
-          kayaks: Andrew Cattoir / Lake Mead National Recreation Area, public
-          domain, via Wikimedia Commons.
-        </p>
-      </details>
-    </footer>
   </body>
 </html>
