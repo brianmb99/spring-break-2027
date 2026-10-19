@@ -5,9 +5,16 @@ A one-page family itinerary for Red Rock Canyon, Las Vegas, Henderson, Hoover Da
 The site is plain HTML and CSS and is published with GitHub Pages at
 https://brianmb99.github.io/spring-break-2027/.
 
-`index.html` holds the current itinerary. Flight details come from the family's
-booking screenshot; lodging and activities remain proposed. Keep the overview,
-flight cards, stay dates and detailed notes in sync when changing the plan.
+`index.html` holds the current itinerary. Flights, all three stays and the O
+tickets are booked (from the family's confirmation emails); other activities
+remain proposed. Keep the overview, flight cards, stay dates and detailed notes
+in sync when changing the plan.
+
+## Privacy
+
+The site is public, so never publish addresses, door codes, confirmation
+numbers, phone numbers, seat assignments, payment details or prices of private
+rentals.
 
 ## Design
 
